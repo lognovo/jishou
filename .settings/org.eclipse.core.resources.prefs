@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/nd/jisou/adapter/ViewFlowImageAdapter.java=UTF-8
+encoding//src/com/nd/jisou/data/json/HouseDetailInfo.java=UTF-8
+encoding//src/com/nd/jisou/data/json/HouseInfo.java=UTF-8
+encoding//src/com/nd/jisou/data/json/HouseJsonData.java=UTF-8
+encoding//src/com/nd/jisou/data/json/ListJsonData.java=UTF-8
+encoding//src/com/nd/jisou/utils/AppErrorLogHandler.java=UTF-8
+encoding//src/com/nd/jisou/utils/FileUtil.java=UTF-8
+encoding//src/com/nd/jisou/utils/LimitSpaceUnwriteException.java=UTF-8
+encoding//src/com/nd/jisou/utils/LogUtil.java=UTF-8
+encoding//src/com/nd/jisou/utils/MultiCard.java=UTF-8
+encoding//src/com/nd/jisou/utils/MultiCardFilePath.java=UTF-8
+encoding//src/com/nd/jisou/utils/ReflectionUtil.java=UTF-8
+encoding//src/com/nd/jisou/utils/StorageUtil.java=UTF-8

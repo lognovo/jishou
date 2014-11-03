@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">即搜房产</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="copy_right">Copyright ©2014 jisou.inc</string>
+    <string name="label_home_search_house">全城搜房</string>
+    <string name="txt_home_ershoufang">二手房</string>
+    <string name="txt_home_xinfang">新房</string>
+    <string name="txt_home_zufang">租房</string>
+    <string name="txt_home_shop">商铺</string>
+    <string name="txt_home_office">写字楼</string>
+    <string name="txt_home_favorite">收藏</string>
+    <string name="label_home_map">地图</string>
+    <string name="label_home_map_desc">在地图上找房，更清楚更直接</string>
+    <string name="txt_home_bottom_home">首页</string>
+    <string name="txt_home_bottom_price">房价</string>
+    <string name="txt_home_bottom_my">我的</string>
+    <string name="default_city">福州</string>
+    <string name="city_list_title">切换城市</string>
+    <string name="city_list_gps_loc">GPS定位城市</string>
+    <string name="city_list_all">城市列表</string>
+    <string name="gps_location_request">正在定位当前城市...</string>
+    <string name="gps_location_success">当前城市是：%1$s</string>
+    <string name="gps_location_failed">Sorry，无法定位当前城市</string>
+    <string name="house_list_area">区域</string>
+    <string name="house_list_price">价格</string>
+    <string name="house_list_other">其他</string>
+    <string name="house_list_guess_like">猜你喜欢</string>
+    <string name="house_old_title">二手房</string>
+    <string name="favorite_clear">清      空</string>
+    <string name="favorite_title">我的收藏</string>
+    <string name="favorite_clear_confirm_content">确认清空所有收藏吗？</string>
+    <string name="confirm_title">提示</string>
+    <string name="confirm_yes">确认</string>
+    <string name="confirm_no">取消</string>
+    <string name="no_data">亲，这里没有记录~</string>
+    <string name="map_title">地图找房</string>
+</resources>

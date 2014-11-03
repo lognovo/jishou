@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:gravity="center" >
+
+        <ProgressBar
+            style="@style/LoadingStyle"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
+</LinearLayout>

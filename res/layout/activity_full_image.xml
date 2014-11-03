@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     xmlns:app="http://schemas.android.com/apk/res/com.nd.jisou"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/text_black" 
+            android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <com.nd.jisou.widget.ViewFlow
+        android:id="@+id/viewflow_pic"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/post_list_thumb_loading" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            android:padding="5dip" >
+
+            <com.nd.jisou.widget.CircleFlowIndicator
+                android:id="@+id/indicator_flow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:padding="3dip"
+                app:activeColor="#ffffff"
+                app:activeType="fill"
+                app:centeredx="true"
+                app:inactiveColor="#ffffff"
+                app:inactiveType="stroke"
+                app:radiusx="4dip" />
+        </LinearLayout>
+    </FrameLayout>
+    
+  
+
+</LinearLayout>

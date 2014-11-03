@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+     >
+     
+     <LinearLayout
+         android:id="@+id/ll_banner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+       >
+        <TextView 
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:text="@string/default_city"
+       	    android:drawableRight="@drawable/banner_down_arrow"
+       	    android:textColor="@color/white"
+       	    android:textSize="14sp"
+			android:drawablePadding="5dp"
+        />
+         </LinearLayout>
+
+   <ImageView 
+       android:id="@+id/iv_top_line"
+		    android:layout_width="match_parent"
+		    android:layout_height="1px"
+		    android:background="@drawable/icon_mine_horizontal_line"
+		    android:layout_marginTop="40dp"
+		    android:layout_below="@+id/ll_banner"
+		    />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_below="@+id/iv_top_line"
+        android:background="#FCFCFC"
+       >
+		 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="left"
+            android:text="@string/label_home_search_house"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_ershoufang"
+                style="@style/home_center_navigator"
+                android:drawableTop="@drawable/icon_ershoufang"
+                android:text="@string/txt_home_ershoufang"
+                 />
+
+            <TextView
+                style="@style/home_center_navigator"
+                android:drawableTop="@drawable/icon_xinfang"
+                android:text="@string/txt_home_xinfang" />
+
+            <TextView
+                style="@style/home_center_navigator"
+                android:drawableTop="@drawable/icon_zufang"
+                android:text="@string/txt_home_zufang" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+             >
+             <TextView
+                style="@style/home_center_navigator"
+                android:drawableTop="@drawable/icon_shop"
+                android:text="@string/txt_home_shop" />
+
+            <TextView
+                style="@style/home_center_navigator"
+                android:drawableTop="@drawable/icon_office"
+                android:text="@string/txt_home_office" />
+
+            <TextView
+                style="@style/home_center_navigator"
+                android:drawableTop="@drawable/icon_favorite"
+                android:text="@string/txt_home_favorite" />
+        </LinearLayout>
+        
+          <ImageView 
+		    android:layout_width="match_parent"
+		    android:layout_height="1px"
+		    android:background="@drawable/icon_mine_horizontal_line"
+		    android:layout_marginTop="20dp"
+		    />
+           <ImageView 
+		    android:layout_width="match_parent"
+		    android:layout_height="1px"
+		    android:background="@drawable/icon_mine_horizontal_line"
+		    android:layout_marginTop="50dp"
+		    
+		    />
+             <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_marginBottom="10dp"
+        >
+              <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:text="@string/label_home_map"
+            android:textSize="16sp"
+   			android:paddingTop="15dp"
+             />
+              
+              <ImageView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/icon_desc"
+                  android:layout_gravity="right"
+                  android:paddingTop="5dp"
+                  />
+            </LinearLayout>
+           
+           
+             
+              <TextView
+                  android:id="@+id/tv_map_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/label_home_map_desc"
+            android:textSize="14sp"
+            android:textColor="@color/text_gray" />
+           
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#333333"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="3dp"
+        >
+         <TextView
+                style="@style/home_bottom_navigator"
+                android:drawableTop="@drawable/icon_zhaofang"
+                android:text="@string/txt_home_bottom_home"
+                android:textColor="#65CC00"
+                 />
+
+            <TextView
+                style="@style/home_bottom_navigator"
+                android:drawableTop="@drawable/icon_price"
+                android:text="@string/txt_home_bottom_price" />
+
+            <TextView
+                android:id="@+id/bottom_my"
+                style="@style/home_bottom_navigator"
+                android:drawableTop="@drawable/icon_mine"
+                android:text="@string/txt_home_bottom_my" />
+        
+    </LinearLayout>
+</RelativeLayout>

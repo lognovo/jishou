@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#F0F0F0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/house_list_bar"
+            android:text="@string/house_list_area" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="16dp"
+            android:background="@drawable/icon_vertical_line" />
+
+        <TextView
+            style="@style/house_list_bar"
+            android:text="@string/house_list_price" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="16dp"
+            android:background="@drawable/icon_vertical_line" />
+
+        <TextView
+            style="@style/house_list_bar"
+            android:text="@string/house_list_other" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/icon_mine_horizontal_line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="#F0F0F0"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="20dp"
+        android:text="@string/house_list_guess_like"
+        android:textColor="@color/text_gray"
+        android:textSize="12sp" />
+
+    <ListView
+        android:id="@+id/lv_house_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/bg_selector" >
+    </ListView>
+
+    <include layout="@layout/loading_layout" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_selector">#f0f0f0</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#00BFFF</color>
+    <color name="text_black">#333333</color>
+    <color name="text_gray">#666666</color>
+    <color name="text_orange">#E8601F</color>
+    <color name="text_actionbar">#ffffff</color>
+    <color name="bar_item_select">#0dbb00</color>
+</resources>

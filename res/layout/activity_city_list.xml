@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/city_list_bar"
+        android:text="@string/city_list_gps_loc" />
+
+    <TextView
+        android:id="@+id/tv_gps_city"
+        style="@style/city_list_item"
+        android:text="@string/default_city"
+        android:background="@drawable/bg_selector"
+        />
+
+    <TextView
+        style="@style/city_list_bar"
+        android:text="@string/city_list_all" />
+
+    <ListView
+        android:id="@+id/lv_city_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/bg_selector"
+         >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_selector"
+     >
+    <TextView
+        android:id="@+id/tv_city"
+        style="@style/city_list_item"
+        android:drawableRight="@drawable/icon_right_arrow"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        />
+
+</LinearLayout>
